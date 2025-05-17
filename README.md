@@ -25,7 +25,7 @@ An Android application that helps visually impaired users navigate to doors whil
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/yourusername/scan.door.exitdetector.git](https://github.com/Mariiamm566/Door-Exit-Detector.git)
+   git clone https://github.com/Mariiamm566/Door-Exit-Detector.git)
    ```
 
 2. Open the project in Android Studio
