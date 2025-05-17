@@ -25,7 +25,7 @@ An Android application that helps visually impaired users navigate to doors whil
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Mariiamm566/Door-Exit-Detector.git)
+   git clone https://github.com/Mariiamm566/Door-Exit-Detector.git
    ```
 
 2. Open the project in Android Studio
@@ -55,22 +55,7 @@ An Android application that helps visually impaired users navigate to doors whil
   - Currently trained to detect doors and common obstacles
   - Minimum confidence threshold: 50% for obstacles, 70% for classification
 
-## Customization
 
-You can adjust several parameters in `MainActivity.kt`:
-
-```kotlin
-// Detection parameters
-private const val MIN_OBSTACLE_CONFIDENCE = 0.5f
-private const val guidanceCooldown = 20000L // 20 seconds
-private const val frameSkip = 2 // Process every 3rd frame
-
-// Visualization colors in setupOverlayStyle()
-```
-
-## Screenshots
-
-(Add screenshots here showing the app in action with bounding boxes)
 
 ## License
 
