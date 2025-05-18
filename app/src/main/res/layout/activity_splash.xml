@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3f5776"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:text="Exit &amp; Door Detector"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="290dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/app_crop" />
+
+    <LinearLayout
+        android:id="@+id/open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_btn"
+        android:backgroundTint="#1fb3e8"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:text="Start Door Detector"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_btn"
+        android:backgroundTint="#1fb3e8"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:text="About Our App"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="25dp"
+        android:gravity="top|center"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded,UselessLeaf,UselessParent">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center"
+                android:text="Contact With Developer"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf">
+
+        <LinearLayout
+            android:id="@+id/linkedin"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/custom_btn"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:importantForAccessibility="no"
+                android:src="@drawable/linkedin" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
